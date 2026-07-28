@@ -166,6 +166,10 @@ const fetchUserAsync = (userId) => {
 };
 
 // async function always returns a promise
+
+
+
+
 async function getUser() {
     try {
         const user = await fetchUserAsync(2);
@@ -177,6 +181,14 @@ async function getUser() {
 }
 
 getUser();
+
+
+
+
+
+
+
+
 
 console.log("\n=== PROMISE.ALL ===");
 
