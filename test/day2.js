@@ -278,3 +278,11 @@ async function parallelExecution() {
 
 // sequentialExecution();
 // parallelExecution();
+
+//event triggering loop
+
+eventLoop = () => {
+    console.log("\n=== EVENT LOOP DEMO ===");
+    console.log("Start of event loop demo");
+}
+
