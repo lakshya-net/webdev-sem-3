@@ -1,0 +1,92 @@
+[
+  {
+    "student_id": "S1001",
+    "first_name": "Elena",
+    "last_name": "Rodriguez",
+    "age": 19,
+    "major": "Computer Science",
+    "gpa": 3.8,
+    "email": "elena.rodriguez@example.com"
+  },
+  {
+    "student_id": "S1002",
+    "first_name": "James",
+    "last_name": "Chen",
+    "age": 21,
+    "major": "Mechanical Engineering",
+    "gpa": 3.5,
+    "email": "james.chen@example.com"
+  },
+  {
+    "student_id": "S1003",
+    "first_name": "Aisha",
+    "last_name": "Patel",
+    "age": 20,
+    "major": "Business Administration",
+    "gpa": 3.9,
+    "email": "aisha.patel@example.com"
+  },
+  {
+    "student_id": "S1004",
+    "first_name": "Marcus",
+    "last_name": "Johnson",
+    "age": 22,
+    "major": "Biology",
+    "gpa": 3.2,
+    "email": "marcus.johnson@example.com"
+  },
+  {
+    "student_id": "S1005",
+    "first_name": "Sophia",
+    "last_name": "Kim",
+    "age": 19,
+    "major": "Graphic Design",
+    "gpa": 3.7,
+    "email": "sophia.kim@example.com"
+  },
+  {
+    "student_id": "S1006",
+    "first_name": "Lucas",
+    "last_name": "Silva",
+    "age": 23,
+    "major": "Data Science",
+    "gpa": 3.6,
+    "email": "lucas.silva@example.com"
+  },
+  {
+    "student_id": "S1007",
+    "first_name": "Olivia",
+    "last_name": "Brown",
+    "age": 20,
+    "major": "Psychology",
+    "gpa": 3.4,
+    "email": "olivia.brown@example.com"
+  },
+  {
+    "student_id": "S1008",
+    "first_name": "Mateo",
+    "last_name": "Garcia",
+    "age": 21,
+    "major": "Architecture",
+    "gpa": 3.1,
+    "email": "mateo.garcia@example.com"
+  },
+  {
+    "student_id": "S1009",
+    "first_name": "Chloe",
+    "last_name": "Dubois",
+    "age": 22,
+    "major": "Nursing",
+    "gpa": 3.8,
+    "email": "chloe.dubois@example.com"
+  },
+  {
+    "student_id": "S1010",
+    "first_name": "Arjun",
+    "last_name": "Nair",
+    "age": 20,
+    "major": "Economics",
+    "gpa": 3.5,
+    "email": "arjun.nair@example.com"
+  }
+]
