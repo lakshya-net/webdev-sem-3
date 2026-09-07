@@ -49,4 +49,9 @@ app.put("/users/:id", (req, res) => {
 app.listen(3000, () => {
   console.log("Server running on port 3000");
 });
- 
+
+// delete - Delete a user
+app.delete("/users/:id", (req, res) => {
+  users=users.filter(u => u.id !== parseInt(req.params.id));
+  res.send({ message: "User deleted" });
+});
