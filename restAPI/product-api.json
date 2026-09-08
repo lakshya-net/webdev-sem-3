@@ -1,0 +1,88 @@
+{
+  "clientName": "Thunder Client",
+  "collectionName": "Product REST API",
+  "dateExported": "2026-09-08T00:00:00.000Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "_id": "product-list",
+      "colId": "product-api",
+      "name": "List products",
+      "url": "http://localhost:3000/products",
+      "method": "GET",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "product-filter",
+      "colId": "product-api",
+      "name": "Filter products",
+      "url": "http://localhost:3000/products?category=Electronics&search=wireless",
+      "method": "GET",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "product-get",
+      "colId": "product-api",
+      "name": "Get product",
+      "url": "http://localhost:3000/products/1",
+      "method": "GET",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "product-create",
+      "colId": "product-api",
+      "name": "Create product",
+      "url": "http://localhost:3000/products",
+      "method": "POST",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "body": {
+        "type": "json",
+        "raw": "{\"name\":\"USB Desk Fan\",\"category\":\"Electronics\",\"price\":29.99,\"stock\":25,\"description\":\"Quiet desk fan\"}"
+      },
+      "tests": []
+    },
+    {
+      "_id": "product-replace",
+      "colId": "product-api",
+      "name": "Replace product",
+      "url": "http://localhost:3000/products/1",
+      "method": "PUT",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "body": {
+        "type": "json",
+        "raw": "{\"name\":\"Wireless Mouse Pro\",\"category\":\"Electronics\",\"price\":39.99,\"stock\":50,\"description\":\"Updated product\"}"
+      },
+      "tests": []
+    },
+    {
+      "_id": "product-update",
+      "colId": "product-api",
+      "name": "Update product stock",
+      "url": "http://localhost:3000/products/1",
+      "method": "PATCH",
+      "headers": [{ "name": "Content-Type", "value": "application/json" }],
+      "body": {
+        "type": "json",
+        "raw": "{\"stock\":75}"
+      },
+      "tests": []
+    },
+    {
+      "_id": "product-delete",
+      "colId": "product-api",
+      "name": "Delete product",
+      "url": "http://localhost:3000/products/101",
+      "method": "DELETE",
+      "headers": [],
+      "params": [],
+      "tests": []
+    }
+  ]
+}
