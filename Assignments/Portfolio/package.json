@@ -1,0 +1,13 @@
+{
+  "name": "krishna-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio served with Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
